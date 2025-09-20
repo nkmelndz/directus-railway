@@ -1,7 +1,5 @@
+# Usa la imagen oficial de Directus
 FROM directus/directus:latest
 
-# Puerto expuesto por Directus
+# Expone el puerto usado por Directus
 EXPOSE 8055
-
-# Comando por defecto
-CMD ["directus", "start"]
